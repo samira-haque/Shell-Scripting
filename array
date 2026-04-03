@@ -1,0 +1,6 @@
+#!/bin/bash
+
+fruits=("mango" "banana" "orrange")
+echo "${(fruits[@]}"
+fruits[2]="Lichi"
+echo "${fruits[@]}"
